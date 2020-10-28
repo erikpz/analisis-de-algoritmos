@@ -2,20 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(int argc, char *argv[])
+int main()
 {
-    /* int n, i;
-    if (argc != 3)
-        exit(1); */
-
-    int n, i;
+    int n, i, j = 0;
     scanf("%d", &n);
-
-    /* n = atoi(argv[1]); */
 
     for (i = 10; i < n * 5; i *= 2)
     {
-        printf("\n Algoritmo");
+        j++;
+        printf("\n %d Algoritmo", j);
     }
     return 0;
 }
